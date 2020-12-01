@@ -1,0 +1,13 @@
+.main-footer{
+    color: whitesmoke;
+    background-color: rgb(161, 100, 100);
+    padding-top : 3em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    
+}

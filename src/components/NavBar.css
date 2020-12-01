@@ -1,0 +1,42 @@
+.navbar{
+ display: grid;
+ grid-template-columns: repeat(5,auto);
+ grid-gap : 10px;
+ list-style-type: none;
+ text-align: center;
+ width: 100vw;
+ justify-content: end;
+ margin-right: 2rem;
+ background-color: whitesmoke;
+ position: sticky;
+    top: 0;
+    z-index: 100;
+    height: 60px;
+    align-items: center;
+}
+.nav__option{
+    
+   
+    display: flex;
+    margin-right: 0.5rem;
+    justify-items: stretch;
+    justify-content: space-evenly;
+    position: sticky;
+    cursor: pointer;
+    margin-left: 15rem;
+}
+.navbar__logo{
+   color: black;
+   justify-self: center;
+   cursor: pointer;
+   justify-content: center;
+   align-items: center;
+   
+}
+.nav__lay{
+    display: flex;
+    margin-right: 0.5rem;
+    justify-items: stretch;
+    justify-content: space-evenly;
+    position: sticky;
+}

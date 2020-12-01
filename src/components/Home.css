@@ -1,0 +1,33 @@
+.home{
+    background-image: -moz-linear-gradient();
+    display: flex;
+    justify-content: center;
+    
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px;
+    flex-direction: column;
+}
+.home__row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.home__row{
+    animation-name: motion;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes motion {
+    0%{
+        background-color: whitesmoke;
+
+    }
+    10%{
+        background-color: whitesmoke;
+    }
+}
